@@ -82,19 +82,19 @@
                 }
             },
             {
-                "selector": ".channelList-1_p3a2",  /* Channel List Background */
+                "selector": ".container-3h3cXw", /* Channel List Background */
                 "style": {
                     "background-color": "#000000"  /* Set channel list background to black */
                 }
             },
             {
-                "selector": ".dmList-1qXYNo",  /* Darken DM List Background */
+                "selector": ".dmList-3YZ7Wv",  /* Darken DM List Background */
                 "style": {
                     "background-color": "#000000"  /* Darken DM list background */
                 }
             },
             {
-                "selector": ".scroller-1b5DE4",
+                "selector": ".scroller-1b5DE4",  /* Chat Area */
                 "style": {
                     "background-color": "rgba(0, 0, 0, 0.5)"  /* Darken chat area */
                 }
@@ -103,6 +103,12 @@
                 "selector": ".text-2dJl8k, .channel-2QD9JL",  /* Text color in chat and channels */
                 "style": {
                     "color": "#ffffff"  /* Ensure text is white */
+                }
+            },
+            {
+                "selector": ".reactionNumber-2i50h2",  /* Reaction number color */
+                "style": {
+                    "color": "#02A8BA"  /* Main theme color */
                 }
             }
         ]
