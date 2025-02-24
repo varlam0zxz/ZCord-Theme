@@ -1,5 +1,5 @@
 {
-    "name": "ZCord-Phone",
+    "name": "ZCord",
     "description": "A highly customizable and beautiful theme made by ZXZ.",
     "authors": [
         {
@@ -21,18 +21,21 @@
         "BACKGROUND_PRIMARY": ["#000000"],
         "BACKGROUND_SECONDARY": ["#000000"],
         "BACKGROUND_TERTIARY": ["#000000"],
-        "BG_BASE_PRIMARY": ["#000000"],
-        "BG_BASE_SECONDARY": ["#000000"],
+        "BACKGROUND_ACCENT": ["#000000"],
+        "BACKGROUND_MOBILE_PRIMARY": ["#000000"],
         "BACKGROUND_MOBILE_SECONDARY": ["#000000"],
-        "BACKGROUND_MENTIONED": ["rgba(128, 128, 128, 0.3)"],
+        "BACKGROUND_NESTED_FLOATING": ["#000000"],
+        "BACKGROUND_MODIFIER_HOVER": ["#29ABAF"],
+        "BACKGROUND_MODIFIER_ACTIVE": ["#2a273f"],
         "BACKGROUND_MODIFIER_SELECTED": ["#02A8BA"],
         "TEXT_PRIMARY": ["#ffffff"],
         "TEXT_LINK": ["#02A8BA"],
         "CHANNELS_DEFAULT": ["#808080"],
-        "CHANNEL_ICON": ["#6e6a86"]
+        "CHANNEL_ICON": ["#6e6a86"],
+        "BACKGROUND_MENTIONED": ["rgba(128, 128, 128, 0.3)"]
     },
     "rawColors": {
-        "BLACK": "#1e1e1e",
+        "BLACK": "#000000",
         "WHITE": "#ffffff",
         "PRIMARY_100": "#02A8BA",
         "PRIMARY_200": "#29ABAF",
@@ -57,10 +60,6 @@
             "brightness": 100,
             "contrast": 100,
             "saturation": 100
-        },
-        "layout": {
-            "sidebarWidth": "200px",
-            "serverListWidth": "40px"
         },
         "icons": {
             "StatusOnline": "#43b581",
