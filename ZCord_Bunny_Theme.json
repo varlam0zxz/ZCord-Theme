@@ -72,25 +72,31 @@
                     "background-size": "cover",
                     "background-position": "center",
                     "background-repeat": "no-repeat",
-                    "background-color": "rgba(0, 0, 0, 0.5)"  /* Dark shading overlay */
+                    "background-color": "rgba(0, 0, 0, 0.5)"  /* 50% black shading overlay */
                 }
             },
             {
                 "selector": ".sidebar-2tJdBr",
                 "style": {
-                    "background-color": "#000000"  /* Set the server list background to black */
+                    "background-color": "#000000"  /* Set server list background to black */
+                }
+            },
+            {
+                "selector": ".guild-2zXuL4",
+                "style": {
+                    "background-color": "#000000"  /* Ensure guild (server) list background is black */
                 }
             },
             {
                 "selector": ".channelList-1_p3a2",
                 "style": {
-                    "background-color": "rgba(0, 0, 0, 0.7)"  /* Darken the channel list background */
+                    "background-color": "#000000"  /* Set channel list background to black */
                 }
             },
             {
                 "selector": ".dmList-1qXYNo",
                 "style": {
-                    "background-color": "rgba(0, 0, 0, 0.7)"  /* Darken the DM list background */
+                    "background-color": "#000000"  /* Darken DM list background */
                 }
             },
             {
