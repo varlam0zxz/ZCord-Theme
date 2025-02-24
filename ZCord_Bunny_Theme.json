@@ -4,7 +4,7 @@
     "authors": [
         {
             "name": "ZXZ",
-            "id": "000000000000000000"
+            "id": "1329509749183610971"
         }
     ],
     "semanticColors": {
@@ -19,20 +19,30 @@
         "INTERACTIVE_ACTIVE": ["#ffffff"],
         "INTERACTIVE_MUTED": ["#6e6a86"],
         "BACKGROUND_PRIMARY": ["#000000"],
+        "CARD_PRIMARY_BG": ["#000000"],
+        "BG_BASE_PRIMARY": ["#000000"],
+        "BG_BACKDROP": ["#000000b2"],
         "BACKGROUND_SECONDARY": ["#000000"],
-        "BACKGROUND_TERTIARY": ["#000000"],
-        "BACKGROUND_ACCENT": ["#000000"],
+        "CARD_SECONDARY_BG": ["#000000"],
+        "BG_BASE_SECONDARY": ["#000000"],
+        "BACKGROUND_SECONDARY_ALT": ["#000000"],
+        "BACKGROUND_TERTIARY": ["#1f1d2e"],
+        "BG_BASE_TERTIARY": ["#000000"],
+        "BACKGROUND_ACCENT": ["#2a273f"],
         "BACKGROUND_MOBILE_PRIMARY": ["#000000"],
         "BACKGROUND_MOBILE_SECONDARY": ["#000000"],
         "BACKGROUND_NESTED_FLOATING": ["#000000"],
+        "BACKGROUND_MESSAGE_HOVER": ["#29ABAF"],
         "BACKGROUND_MODIFIER_HOVER": ["#29ABAF"],
-        "BACKGROUND_MODIFIER_ACTIVE": ["#2a273f"],
+        "BACKGROUND_MODIFIER_ACTIVE": ["#000000"],
         "BACKGROUND_MODIFIER_SELECTED": ["#02A8BA"],
-        "TEXT_PRIMARY": ["#ffffff"],
-        "TEXT_LINK": ["#02A8BA"],
+        "BACKGROUND_MODIFIER_ACCENT": ["#2a273f"],
+        "BACKGROUND_MENTIONED": ["rgba(128, 128, 128, 0.3)"],
         "CHANNELS_DEFAULT": ["#808080"],
         "CHANNEL_ICON": ["#6e6a86"],
-        "BACKGROUND_MENTIONED": ["rgba(128, 128, 128, 0.3)"]
+        "TEXT_PRIMARY": ["#ffffff"],
+        "TEXT_LINK": ["#02A8BA"],
+        "THREAD_CHANNEL_SPINE": ["#808080"]
     },
     "rawColors": {
         "BLACK": "#000000",
@@ -42,7 +52,7 @@
         "PRIMARY_300": "#095834",
         "PRIMARY_400": "#FF0057",
         "PRIMARY_500": "#ffffff",
-        "BRAND_500": "#5865F2",  
+        "BRAND_500": "#5865F2",
         "GUILD_BOOSTING_PINK": "#eb6f92",
         "RED_500": "#eb6c92",
         "YELLOW_500": "#f6c177",
@@ -72,43 +82,43 @@
                     "background-size": "cover",
                     "background-position": "center",
                     "background-repeat": "no-repeat",
-                    "background-color": "rgba(0, 0, 0, 0.5)"  /* Apply 50% black shading overlay */
+                    "background-color": "rgba(0, 0, 0, 0.5)"
                 }
             },
             {
-                "selector": ".sidebar-2tJdBr, .guild-2zXuL4",  /* Server List Background */
+                "selector": ".sidebar-2tJdBr, .guild-2zXuL4",
                 "style": {
-                    "background-color": "#000000"  /* Set server list background to black */
+                    "background-color": "#000000"
                 }
             },
             {
-                "selector": ".container-3h3cXw", /* Channel List Background */
+                "selector": ".container-3h3cXw",
                 "style": {
-                    "background-color": "#000000"  /* Set channel list background to black */
+                    "background-color": "#000000"
                 }
             },
             {
-                "selector": ".dmList-3YZ7Wv",  /* Darken DM List Background */
+                "selector": ".dmList-3YZ7Wv",
                 "style": {
-                    "background-color": "#000000"  /* Darken DM list background */
+                    "background-color": "#000000"
                 }
             },
             {
-                "selector": ".scroller-1b5DE4",  /* Chat Area */
+                "selector": ".scroller-1b5DE4",
                 "style": {
-                    "background-color": "rgba(0, 0, 0, 0.5)"  /* Darken chat area */
+                    "background-color": "rgba(0, 0, 0, 0.5)"
                 }
             },
             {
-                "selector": ".text-2dJl8k, .channel-2QD9JL",  /* Text color in chat and channels */
+                "selector": ".text-2dJl8k, .channel-2QD9JL",
                 "style": {
-                    "color": "#ffffff"  /* Ensure text is white */
+                    "color": "#ffffff"
                 }
             },
             {
-                "selector": ".reactionNumber-2i50h2",  /* Reaction number color */
+                "selector": ".reactionNumber-2i50h2",
                 "style": {
-                    "color": "#02A8BA"  /* Main theme color */
+                    "color": "#02A8BA"
                 }
             }
         ]
