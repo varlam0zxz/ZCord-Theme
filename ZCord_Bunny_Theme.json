@@ -1,5 +1,5 @@
 {
-    "name": "ZCord",
+    "name": "ZCord-Phone",
     "description": "A highly customizable and beautiful theme made by ZXZ.",
     "authors": [
         {
@@ -19,11 +19,12 @@
         "INTERACTIVE_ACTIVE": ["#ffffff"],
         "INTERACTIVE_MUTED": ["#6e6a86"],
         "BACKGROUND_PRIMARY": ["#000000"],
-        "BACKGROUND_SECONDARY": ["#2C2F33"],
+        "BACKGROUND_SECONDARY": ["#000000"],
         "BACKGROUND_TERTIARY": ["#36393F"],
         "BG_BASE_PRIMARY": ["#000000"],
-        "BG_BASE_SECONDARY": ["#2C2F33"],
+        "BG_BASE_SECONDARY": ["#000000"],
         "BACKGROUND_MENTIONED": ["rgba(128, 128, 128, 0.3)"],
+        "BACKGROUND_MODIFIER_SELECTED": ["#02A8BA"],
         "TEXT_PRIMARY": ["#ffffff"],
         "TEXT_LINK": ["#02A8BA"],
         "CHANNELS_DEFAULT": ["#808080"],
