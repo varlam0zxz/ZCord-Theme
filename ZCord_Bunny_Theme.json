@@ -1,54 +1,118 @@
 {
     "name": "ZCord",
-    "author": "ZXZ",
-    "version": "1.0",
-    "colors": {
-        "main": "#02A8BA",
-        "hover": "#29ABAF",
-        "success": "#095834",
-        "danger": "#FF0057",
-        "url": "#29ABAF",
-        "channel_unread": "#02A8BA",
-        "channel_color": "rgba(255, 255, 255, 0.74)",
-        "muted_color": "rgba(255, 255, 255, 0.12)",
-        "online": "#43b581",
-        "idle": "#faa61a",
-        "dnd": "#982929",
-        "streaming": "#593695",
-        "offline": "#808080"
+    "description": "A highly customizable and beautiful theme made by ZXZ.",
+    "authors": [
+        {
+            "name": "ZXZ",
+            "id": "000000000000000000"
+        }
+    ],
+    "semanticColors": {
+        "ANDROID_RIPPLE": [
+            "#29ABAF"
+        ],
+        "CHAT_BACKGROUND": [
+            "#1e1e1e"
+        ],
+        "HEADER_PRIMARY": [
+            "#ffffff"
+        ],
+        "HEADER_SECONDARY": [
+            "#cccccc"
+        ],
+        "TEXT_NORMAL": [
+            "#ffffff"
+        ],
+        "TEXT_MUTED": [
+            "#808080"
+        ],
+        "INTERACTIVE_NORMAL": [
+            "#02A8BA"
+        ],
+        "INTERACTIVE_HOVER": [
+            "#29ABAF"
+        ],
+        "INTERACTIVE_ACTIVE": [
+            "#ffffff"
+        ],
+        "INTERACTIVE_MUTED": [
+            "#6e6a86"
+        ],
+        "BACKGROUND_PRIMARY": [
+            "#121212"
+        ],
+        "BACKGROUND_SECONDARY": [
+            "#181818"
+        ],
+        "BACKGROUND_TERTIARY": [
+            "#202020"
+        ],
+        "BG_BASE_PRIMARY": [
+            "#1e1e1e"
+        ],
+        "BG_BASE_SECONDARY": [
+            "#232323"
+        ],
+        "BG_BASE_TERTIARY": [
+            "#2a2a2a"
+        ],
+        "BACKGROUND_ACCENT": [
+            "#095834"
+        ],
+        "BACKGROUND_MESSAGE_HOVER": [
+            "#44415a"
+        ],
+        "BACKGROUND_MODIFIER_HOVER": [
+            "#44415a"
+        ],
+        "BACKGROUND_MODIFIER_ACTIVE": [
+            "#2a273f"
+        ],
+        "BACKGROUND_MODIFIER_SELECTED": [
+            "#56526e"
+        ],
+        "BACKGROUND_MENTIONED": [
+            "#FF0057"
+        ],
+        "TEXT_PRIMARY": [
+            "#ffffff"
+        ],
+        "TEXT_LINK": [
+            "#02A8BA"
+        ],
+        "CHANNELS_DEFAULT": [
+            "#808080"
+        ],
+        "CHANNEL_ICON": [
+            "#6e6a86"
+        ]
     },
-    "background": {
-        "image": "https://i.imgur.com/vEm069P.jpeg",
-        "shading": "50%",
-        "position": "center",
-        "size": "cover",
-        "repeat": "no-repeat",
-        "attachment": "fixed",
-        "brightness": "100%",
-        "contrast": "100%",
-        "saturation": "100%",
-        "grayscale": "0%",
-        "invert": "0%",
-        "blur": "0px",
-        "overlay": "rgba(0, 0, 0, 0.67)"
+    "rawColors": {
+        "BLACK": "#1e1e1e",
+        "WHITE": "#ffffff",
+        "PRIMARY_100": "#02A8BA",
+        "PRIMARY_200": "#29ABAF",
+        "PRIMARY_300": "#095834",
+        "PRIMARY_400": "#FF0057",
+        "PRIMARY_500": "#ffffff",
+        "BRAND_500": "#02A8BA",
+        "GUILD_BOOSTING_PINK": "#eb6f92",
+        "RED_500": "#eb6f92",
+        "YELLOW_500": "#f6c177",
+        "GREEN_500": "#43b581",
+        "BLUE_500": "#3e8fb0"
     },
-    "home_icon": {
-        "image": "https://i.imgur.com/FxZtFPO.png",
-        "position": "center",
-        "size": "40px"
+    "plus": {
+        "version": "0",
+        "customOverlays": true,
+        "mentionLineColor": "#FF0057",
+        "icons": {
+            "StatusOnline": "#43b581",
+            "StatusIdle": "#faa61a",
+            "StatusDND": "#982929",
+            "StatusOffline": "#808080",
+            "StatusStreaming": "#593695"
+        }
     },
-    "sidebar": {
-        "channels_width": "270px",
-        "members_width": "270px"
-    },
-    "server_icon": {
-        "size": "88px"
-    },
-    "mentions": {
-        "text_shadow": "0 0 0.5px currentColor",
-        "font_weight": "500"
-    },
-    "emoji": {
-        "image_rendering": "-webkit-optimize-contrast"
-    }
+    "spec": 2
 }
