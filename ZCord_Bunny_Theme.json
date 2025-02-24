@@ -39,7 +39,7 @@
             "#6e6a86"
         ],
         "BACKGROUND_PRIMARY": [
-            "#121212"
+            "#000000"
         ],
         "BACKGROUND_SECONDARY": [
             "#181818"
@@ -48,7 +48,7 @@
             "#202020"
         ],
         "BG_BASE_PRIMARY": [
-            "#1e1e1e"
+            "#000000"
         ],
         "BG_BASE_SECONDARY": [
             "#232323"
@@ -112,6 +112,14 @@
             "StatusDND": "#982929",
             "StatusOffline": "#808080",
             "StatusStreaming": "#593695"
+        },
+        "backgroundImage": {
+            "url": "https://i.imgur.com/vEm069P.jpeg",
+            "opacity": 1.0,
+            "blur": 0,
+            "brightness": 100,
+            "contrast": 100,
+            "saturation": 100
         }
     },
     "spec": 2
