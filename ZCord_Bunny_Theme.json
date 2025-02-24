@@ -44,7 +44,7 @@
         "PRIMARY_500": "#ffffff",
         "BRAND_500": "#02A8BA",
         "GUILD_BOOSTING_PINK": "#eb6f92",
-        "RED_500": "#eb6f92",
+        "RED_500": "#eb6c92",
         "YELLOW_500": "#f6c177",
         "GREEN_500": "#43b581",
         "BLUE_500": "#3e8fb0"
@@ -59,7 +59,10 @@
             "blur": 0,
             "brightness": 100,
             "contrast": 100,
-            "saturation": 100
+            "saturation": 100,
+            "position": "center",
+            "size": "cover",
+            "repeat": "no-repeat"
         },
         "icons": {
             "StatusOnline": "#43b581",
