@@ -1,6 +1,6 @@
 {
-    "name": "ZCord-Phone",
-    "description": "A highly customizable and beautiful theme for phone made by ZXZ.",
+    "name": "ZCord",
+    "description": "A highly customizable and beautiful theme made by ZXZ.",
     "authors": [
         {
             "name": "ZXZ",
@@ -8,84 +8,26 @@
         }
     ],
     "semanticColors": {
-        "ANDROID_RIPPLE": [
-            "#29ABAF"
-        ],
-        "CHAT_BACKGROUND": [
-            "#000000"
-        ],
-        "HEADER_PRIMARY": [
-            "#ffffff"
-        ],
-        "HEADER_SECONDARY": [
-            "#cccccc"
-        ],
-        "TEXT_NORMAL": [
-            "#ffffff"
-        ],
-        "TEXT_MUTED": [
-            "#808080"
-        ],
-        "INTERACTIVE_NORMAL": [
-            "#02A8BA"
-        ],
-        "INTERACTIVE_HOVER": [
-            "#29ABAF"
-        ],
-        "INTERACTIVE_ACTIVE": [
-            "#ffffff"
-        ],
-        "INTERACTIVE_MUTED": [
-            "#6e6a86"
-        ],
-        "BACKGROUND_PRIMARY": [
-            "#23272A"
-        ],
-        "BACKGROUND_SECONDARY": [
-            "#2C2F33"
-        ],
-        "BACKGROUND_TERTIARY": [
-            "#36393F"
-        ],
-        "BG_BASE_PRIMARY": [
-            "#23272A"
-        ],
-        "BG_BASE_SECONDARY": [
-            "#2C2F33"
-        ],
-        "BG_BASE_TERTIARY": [
-            "#2a2a2a"
-        ],
-        "BACKGROUND_ACCENT": [
-            "#095834"
-        ],
-        "BACKGROUND_MESSAGE_HOVER": [
-            "#44415a"
-        ],
-        "BACKGROUND_MODIFIER_HOVER": [
-            "#44415a"
-        ],
-        "BACKGROUND_MODIFIER_ACTIVE": [
-            "#2a273f"
-        ],
-        "BACKGROUND_MODIFIER_SELECTED": [
-            "#56526e"
-        ],
-        "BACKGROUND_MENTIONED": [
-            "#00000000"
-        ],
-        "TEXT_PRIMARY": [
-            "#ffffff"
-        ],
-        "TEXT_LINK": [
-            "#02A8BA"
-        ],
-        "CHANNELS_DEFAULT": [
-            "#808080"
-        ],
-        "CHANNEL_ICON": [
-            "#6e6a86"
-        ]
+        "ANDROID_RIPPLE": ["#29ABAF"],
+        "CHAT_BACKGROUND": ["#000000"],
+        "HEADER_PRIMARY": ["#ffffff"],
+        "HEADER_SECONDARY": ["#cccccc"],
+        "TEXT_NORMAL": ["#ffffff"],
+        "TEXT_MUTED": ["#808080"],
+        "INTERACTIVE_NORMAL": ["#02A8BA"],
+        "INTERACTIVE_HOVER": ["#29ABAF"],
+        "INTERACTIVE_ACTIVE": ["#ffffff"],
+        "INTERACTIVE_MUTED": ["#6e6a86"],
+        "BACKGROUND_PRIMARY": ["#000000"],
+        "BACKGROUND_SECONDARY": ["#2C2F33"],
+        "BACKGROUND_TERTIARY": ["#36393F"],
+        "BG_BASE_PRIMARY": ["#000000"],
+        "BG_BASE_SECONDARY": ["#2C2F33"],
+        "BACKGROUND_MENTIONED": ["rgba(128, 128, 128, 0.3)"],
+        "TEXT_PRIMARY": ["#ffffff"],
+        "TEXT_LINK": ["#02A8BA"],
+        "CHANNELS_DEFAULT": ["#808080"],
+        "CHANNEL_ICON": ["#6e6a86"]
     },
     "rawColors": {
         "BLACK": "#1e1e1e",
@@ -105,14 +47,7 @@
     "plus": {
         "version": "0",
         "customOverlays": true,
-        "mentionLineColor": "#FF0057",
-        "icons": {
-            "StatusOnline": "#43b581",
-            "StatusIdle": "#faa61a",
-            "StatusDND": "#982929",
-            "StatusOffline": "#808080",
-            "StatusStreaming": "#593695"
-        },
+        "mentionLineColor": "#02A8BA",
         "backgroundImage": {
             "url": "https://i.imgur.com/vEm069P.jpeg",
             "opacity": 1.0,
@@ -123,7 +58,14 @@
         },
         "layout": {
             "sidebarWidth": "200px",
-            "serverListWidth": "50px"
+            "serverListWidth": "40px"
+        },
+        "icons": {
+            "StatusOnline": "#43b581",
+            "StatusIdle": "#faa61a",
+            "StatusDND": "#982929",
+            "StatusOffline": "#808080",
+            "StatusStreaming": "#593695"
         }
     },
     "spec": 2
