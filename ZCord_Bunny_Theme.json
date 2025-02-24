@@ -1,32 +1,68 @@
 {
-  "name": "ZCord",
-  "version": "1.0",
-  "backgrounds": {
-    "CHANNEL_LIST": "#000000", 
-    "ACTIVE_CHANNEL_BG": "#6E87D4", // Main color (change to desired shade)
-    "FOLDER_BG": "#6E87D4", // Main color for folder opened state
-    "DM_LIST_BG": "#24232b" // Dark background for DMs
-  },
-  "semanticColors": {
-    "BACKGROUND_PRIMARY": "#24232b", 
-    "CHANNELS_DEFAULT": "#b6b6b6", 
-    "CHANNELS_SELECTED": "#6E87D4", 
-    "CHANNEL_NAME": "#ffffff", 
-    "CHANNEL_ICON": "#BBC4F8",
-    "BACKGROUND_MODIFIER_SELECTED": "#6E87D4" // Apply theme color to selected channel/folder
-  },
-  "rawColors": {
-    "PRIMARY_600": "#24232b",
-    "PRIMARY_630": "#323442",
-    "PRIMARY_530": "#6E87D4" // Main color
-  },
-  "folders": {
-    "OPENED_BACKGROUND": "#6E87D4" // Folders with servers open background color
-  },
-  "dmList": {
-    "BACKGROUND": "#24232b" // Same as channel list background color
-  },
-  "fonts": {
-    "DEFAULT": "https://path_to_font.ttf"
-  }
+    "name": "ZCord",
+    "description": "Highly customizable and beautiful theme made by ZXZ.",
+    "authors": [
+        {
+            "name": "ZXZ",
+            "id": ""
+        }
+    ],
+    "semanticColors": {
+        "ANDROID_RIPPLE": ["#00bcd4", "#00bcd4", "#00bcd4"],
+        "ACTIVITY_CARD_BACKGROUND": ["#00bcd4", "#00bcd4", "#00bcd4"],
+        "BACKGROUND_FLOATING": ["#000000", "#000000", "#000000"],
+        "BACKGROUND_MENTIONED": ["#00bcd41a", "#00bcd41a", "#00bcd41a"],
+        "BACKGROUND_MENTIONED_HOVER": ["#00bcd41a", "#00bcd41a", "#00bcd41a"],
+        "BACKGROUND_MESSAGE_HOVER": ["#00bcd41a", "#00bcd41a", "#00bcd41a"],
+        "BACKGROUND_MOBILE_PRIMARY": ["#000000", "#000000", "#000000"],
+        "BACKGROUND_MOBILE_SECONDARY": ["#000000", "#000000", "#000000"],
+        "BACKGROUND_ACCENT": ["#00bcd4", "#00bcd4", "#00bcd4"],
+        "BACKGROUND_MODIFIER_ACCENT": ["#222959", "#222959", "#222959"],
+        "BACKGROUND_MODIFIER_ACTIVE": ["#2678d626", "#06142826", "#2678d626"],
+        "BACKGROUND_MODIFIER_HOVER": ["#2678d626", "#06142826", "#2678d626"],
+        "BACKGROUND_MODIFIER_SELECTED": ["#2678d699", "#2678d699", "#2678d699"],
+        "BACKGROUND_PRIMARY": ["#000000", "#000000", "#000000"],
+        "BACKGROUND_SECONDARY": ["#111111", "#111111", "#111111"],
+        "BACKGROUND_SECONDARY_ALT": ["#111111", "#111111", "#111111"],
+        "BACKGROUND_TERTIARY": ["#04122e", "#04122e", "#04122e"],
+        "BG_BACKDROP": ["#102b48b3", "#102b48b3", "#102b48b3"],
+        "BG_BASE_PRIMARY": ["#000000", "#000000", "#000000"],
+        "CARD_PRIMARY_BG": ["#000000", "#000000", "#000000"],
+        "CARD_SECONDARY_BG": ["#000000", "#000000", "#000000"],
+        "CHANNELS_DEFAULT": ["#575a68", "#575a68", "#575a68"],
+        "CHANNEL_ICON": ["#00bcd4", "#00bcd4", "#00bcd4"],
+        "CHAT_BACKGROUND": ["transparent", "transparent", "transparent"],
+        "CHANNEL_TEXT_AREA_PLACEHOLDER": ["#00bcd4", "#00bcd4", "#00bcd4"],
+        "CHANNELTEXTAREA_BACKGROUND": ["#000000", "#000000", "#000000"],
+        "SCROLLBAR_AUTO_THUMB": ["#061428", "#061428", "#061428"],
+        "SCROLLBAR_AUTO_TRACK": ["#061428", "#7eb3f0", "#000000"],
+        "SCROLLBAR_THIN_THUMB": ["#061428", "#061428", "#061428"],
+        "SCROLLBAR_THIN_TRACK": ["#061428", "#7eb3f0", "#000000"],
+        "STATUS_DANGER_BACKGROUND": ["#fb4934", "#9d0006", "#fb4934"],
+        "STATUS_POSITIVE_BACKGROUND": ["#689d6a", "#427b58", "#689d6a"],
+        "STATUS_WARNING_BACKGROUND": ["#fab387", "#fab387", "#fab387"],
+        "TEXT_LINK": ["#00bcd4", "#00bcd4", "#00bcd4"],
+        "TEXT_NORMAL": ["#dcddde", "#dcddde", "#dcddde"],
+        "TEXT_POSITIVE": ["#689d6a", "#427b58", "#689d6a"],
+        "TEXT_WARNING": ["#fb4934", "#9d0006", "#cc241d"]
+    },
+    "rawColors": {
+        "PRIMARY_100": "#00bcd4",
+        "PRIMARY_200": "#00bcd4",
+        "PRIMARY_300": "#00bcd4",
+        "PRIMARY_400": "#00bcd4",
+        "PRIMARY_500": "#00bcd4",
+        "PRIMARY_600": "#000000",
+        "PRIMARY_700": "#000000",
+        "PRIMARY_800": "#000000",
+        "PRIMARY_900": "#000000",
+        "BRAND_230": "#ffffff",
+        "BRAND_260": "#00bcd4",
+        "WHITE_500": "#dcddde"
+    },
+    "background": {
+        "url": "https://your-image-link-here.jpg", 
+        "alpha": 1
+    },
+    "spec": 2
 }
