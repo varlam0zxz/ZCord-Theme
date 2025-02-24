@@ -1,46 +1,32 @@
 {
-    "name": "ZCord",
-    "description": "Custom Discord Theme",
-    "version": "1.0",
-    "authors": [
-        {
-            "name": "ZXZ",
-            "id": ""
-        }
-    ],
-    "semanticColors": {
-        "SERVER_LIST_BACKGROUND": ["#1A1B22"], 
-        "DM_LIST_BACKGROUND": ["#1A1B22"], 
-        "CHANNEL_BACKGROUND": ["#4A63B2"], 
-        "CHANNEL_BACKGROUND_HOVER": ["#5A75C2"], 
-        "CHANNEL_TEXT": ["#FFFFFF"],
-        "CHANNEL_TEXT_HOVER": ["#D1D8FF"], 
-        "TEXT_NORMAL": ["#FBFBFB"], 
-        "TEXT_MUTED": ["#929ce7"], 
-        "TEXT_PRIMARY": ["#DBDEE1"],
-        "HEADER_PRIMARY": ["#A1B7FF"],
-        "INPUT_BACKGROUND": ["#16151b"],
-        "BACKGROUND_MODIFIER_ACTIVE": ["#ffffff14"],
-        "BACKGROUND_PRIMARY": ["#24232b"]
-    },
-    "rawColors": {
-        "PRIMARY_100": "#ffffff",
-        "PRIMARY_200": "#BBC4F8",
-        "PRIMARY_300": "#fffeff",
-        "PRIMARY_400": "#bebee3",
-        "PRIMARY_500": "#8C9CE6",
-        "PRIMARY_600": "#24232b",
-        "PRIMARY_700": "#16151b",
-        "PLUM_10": "#848494",
-        "BRAND_300": "#97B9F4",
-        "RED_300": "#97B9F4",
-        "BLUE_500": "#7894C1",
-        "WHITE_500": "#fff",
-        "BLACK_500": "#fff"
-    },
-    "background": {
-        "blur": 0.1,
-        "url": "https://i.imgur.com/nJ1Pj3p.png"
-    },
-    "spec": 2
+  "name": "ZCord",
+  "version": "1.0",
+  "backgrounds": {
+    "CHANNEL_LIST": "#000000", 
+    "ACTIVE_CHANNEL_BG": "#6E87D4", // Main color (change to desired shade)
+    "FOLDER_BG": "#6E87D4", // Main color for folder opened state
+    "DM_LIST_BG": "#24232b" // Dark background for DMs
+  },
+  "semanticColors": {
+    "BACKGROUND_PRIMARY": "#24232b", 
+    "CHANNELS_DEFAULT": "#b6b6b6", 
+    "CHANNELS_SELECTED": "#6E87D4", 
+    "CHANNEL_NAME": "#ffffff", 
+    "CHANNEL_ICON": "#BBC4F8",
+    "BACKGROUND_MODIFIER_SELECTED": "#6E87D4" // Apply theme color to selected channel/folder
+  },
+  "rawColors": {
+    "PRIMARY_600": "#24232b",
+    "PRIMARY_630": "#323442",
+    "PRIMARY_530": "#6E87D4" // Main color
+  },
+  "folders": {
+    "OPENED_BACKGROUND": "#6E87D4" // Folders with servers open background color
+  },
+  "dmList": {
+    "BACKGROUND": "#24232b" // Same as channel list background color
+  },
+  "fonts": {
+    "DEFAULT": "https://path_to_font.ttf"
+  }
 }
