@@ -49,21 +49,14 @@
         "GREEN_500": "#43b581",
         "BLUE_500": "#3e8fb0"
     },
+    "background": {
+        "alpha": 5,
+        "url": "https://i.imgur.com/vEm069P.jpeg"
+    },
     "plus": {
         "version": "0",
         "customOverlays": true,
         "mentionLineColor": "#02A8BA",
-        "backgroundImage": {
-            "url": "https://i.imgur.com/vEm069P.jpeg",
-            "opacity": 1.0,
-            "blur": 0,
-            "brightness": 100,
-            "contrast": 100,
-            "saturation": 100,
-            "position": "center",
-            "size": "cover",
-            "repeat": "no-repeat"
-        },
         "icons": {
             "StatusOnline": "#43b581",
             "StatusIdle": "#faa61a",
