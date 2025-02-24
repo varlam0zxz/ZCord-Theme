@@ -12,7 +12,7 @@
             "#29ABAF"
         ],
         "CHAT_BACKGROUND": [
-            "#1e1e1e"
+            "#000000"
         ],
         "HEADER_PRIMARY": [
             "#ffffff"
@@ -39,19 +39,19 @@
             "#6e6a86"
         ],
         "BACKGROUND_PRIMARY": [
-            "#000000"
+            "#23272A"
         ],
         "BACKGROUND_SECONDARY": [
-            "#181818"
+            "#2C2F33"
         ],
         "BACKGROUND_TERTIARY": [
-            "#202020"
+            "#36393F"
         ],
         "BG_BASE_PRIMARY": [
-            "#000000"
+            "#23272A"
         ],
         "BG_BASE_SECONDARY": [
-            "#232323"
+            "#2C2F33"
         ],
         "BG_BASE_TERTIARY": [
             "#2a2a2a"
@@ -72,7 +72,7 @@
             "#56526e"
         ],
         "BACKGROUND_MENTIONED": [
-            "#FF0057"
+            "#00000000"
         ],
         "TEXT_PRIMARY": [
             "#ffffff"
@@ -120,6 +120,10 @@
             "brightness": 100,
             "contrast": 100,
             "saturation": 100
+        },
+        "layout": {
+            "sidebarWidth": "200px",
+            "serverListWidth": "50px"
         }
     },
     "spec": 2
