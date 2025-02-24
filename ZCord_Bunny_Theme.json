@@ -1,127 +1,46 @@
 {
     "name": "ZCord",
-    "description": "A highly customizable and beautiful theme made by ZXZ.",
+    "description": "Custom Discord Theme",
+    "version": "1.0",
     "authors": [
         {
             "name": "ZXZ",
-            "id": "1329509749183610971"
+            "id": ""
         }
     ],
     "semanticColors": {
-        "ANDROID_RIPPLE": ["#29ABAF"],
-        "CHAT_BACKGROUND": ["#000000"],
-        "HEADER_PRIMARY": ["#ffffff"],
-        "HEADER_SECONDARY": ["#cccccc"],
-        "TEXT_NORMAL": ["#ffffff"],
-        "TEXT_MUTED": ["#808080"],
-        "INTERACTIVE_NORMAL": ["#02A8BA"],
-        "INTERACTIVE_HOVER": ["#29ABAF"],
-        "INTERACTIVE_ACTIVE": ["#ffffff"],
-        "INTERACTIVE_MUTED": ["#6e6a86"],
-        "BACKGROUND_PRIMARY": ["#000000"],
-        "CARD_PRIMARY_BG": ["#000000"],
-        "BG_BASE_PRIMARY": ["#000000"],
-        "BG_BACKDROP": ["#000000b2"],
-        "BACKGROUND_SECONDARY": ["#000000"],
-        "CARD_SECONDARY_BG": ["#000000"],
-        "BG_BASE_SECONDARY": ["#000000"],
-        "BACKGROUND_SECONDARY_ALT": ["#000000"],
-        "BACKGROUND_TERTIARY": ["#1f1d2e"],
-        "BG_BASE_TERTIARY": ["#000000"],
-        "BACKGROUND_ACCENT": ["#2a273f"],
-        "BACKGROUND_MOBILE_PRIMARY": ["#000000"],
-        "BACKGROUND_MOBILE_SECONDARY": ["#000000"],
-        "BACKGROUND_NESTED_FLOATING": ["#000000"],
-        "BACKGROUND_MESSAGE_HOVER": ["#29ABAF"],
-        "BACKGROUND_MODIFIER_HOVER": ["#29ABAF"],
-        "BACKGROUND_MODIFIER_ACTIVE": ["#000000"],
-        "BACKGROUND_MODIFIER_SELECTED": ["#02A8BA"],
-        "BACKGROUND_MODIFIER_ACCENT": ["#2a273f"],
-        "BACKGROUND_MENTIONED": ["rgba(128, 128, 128, 0.3)"],
-        "CHANNELS_DEFAULT": ["#808080"],
-        "CHANNEL_ICON": ["#6e6a86"],
-        "TEXT_PRIMARY": ["#ffffff"],
-        "TEXT_LINK": ["#02A8BA"],
-        "THREAD_CHANNEL_SPINE": ["#808080"]
+        "SERVER_LIST_BACKGROUND": ["#1A1B22"], 
+        "DM_LIST_BACKGROUND": ["#1A1B22"], 
+        "CHANNEL_BACKGROUND": ["#4A63B2"], 
+        "CHANNEL_BACKGROUND_HOVER": ["#5A75C2"], 
+        "CHANNEL_TEXT": ["#FFFFFF"],
+        "CHANNEL_TEXT_HOVER": ["#D1D8FF"], 
+        "TEXT_NORMAL": ["#FBFBFB"], 
+        "TEXT_MUTED": ["#929ce7"], 
+        "TEXT_PRIMARY": ["#DBDEE1"],
+        "HEADER_PRIMARY": ["#A1B7FF"],
+        "INPUT_BACKGROUND": ["#16151b"],
+        "BACKGROUND_MODIFIER_ACTIVE": ["#ffffff14"],
+        "BACKGROUND_PRIMARY": ["#24232b"]
     },
     "rawColors": {
-        "BLACK": "#000000",
-        "WHITE": "#ffffff",
-        "PRIMARY_100": "#02A8BA",
-        "PRIMARY_200": "#29ABAF",
-        "PRIMARY_300": "#095834",
-        "PRIMARY_400": "#FF0057",
-        "PRIMARY_500": "#ffffff",
-        "BRAND_500": "#5865F2",
-        "GUILD_BOOSTING_PINK": "#eb6f92",
-        "RED_500": "#eb6c92",
-        "YELLOW_500": "#f6c177",
-        "GREEN_500": "#43b581",
-        "BLUE_500": "#3e8fb0"
+        "PRIMARY_100": "#ffffff",
+        "PRIMARY_200": "#BBC4F8",
+        "PRIMARY_300": "#fffeff",
+        "PRIMARY_400": "#bebee3",
+        "PRIMARY_500": "#8C9CE6",
+        "PRIMARY_600": "#24232b",
+        "PRIMARY_700": "#16151b",
+        "PLUM_10": "#848494",
+        "BRAND_300": "#97B9F4",
+        "RED_300": "#97B9F4",
+        "BLUE_500": "#7894C1",
+        "WHITE_500": "#fff",
+        "BLACK_500": "#fff"
     },
     "background": {
-        "alpha": 50,
-        "url": "https://i.imgur.com/vEm069P.jpeg"
-    },
-    "plus": {
-        "version": "0",
-        "customOverlays": true,
-        "mentionLineColor": "#02A8BA",
-        "icons": {
-            "StatusOnline": "#43b581",
-            "StatusIdle": "#faa61a",
-            "StatusDND": "#982929",
-            "StatusOffline": "#808080",
-            "StatusStreaming": "#593695"
-        },
-        "css": [
-            {
-                "selector": "body",
-                "style": {
-                    "background-image": "url('https://i.imgur.com/vEm069P.jpeg')",
-                    "background-size": "cover",
-                    "background-position": "center",
-                    "background-repeat": "no-repeat",
-                    "background-color": "rgba(0, 0, 0, 0.5)"
-                }
-            },
-            {
-                "selector": ".sidebar-2tJdBr, .guild-2zXuL4",
-                "style": {
-                    "background-color": "#000000"
-                }
-            },
-            {
-                "selector": ".container-3h3cXw",
-                "style": {
-                    "background-color": "#000000"
-                }
-            },
-            {
-                "selector": ".dmList-3YZ7Wv",
-                "style": {
-                    "background-color": "#000000"
-                }
-            },
-            {
-                "selector": ".scroller-1b5DE4",
-                "style": {
-                    "background-color": "rgba(0, 0, 0, 0.5)"
-                }
-            },
-            {
-                "selector": ".text-2dJl8k, .channel-2QD9JL",
-                "style": {
-                    "color": "#ffffff"
-                }
-            },
-            {
-                "selector": ".reactionNumber-2i50h2",
-                "style": {
-                    "color": "#02A8BA"
-                }
-            }
-        ]
+        "blur": 0.1,
+        "url": "https://i.imgur.com/nJ1Pj3p.png"
     },
     "spec": 2
 }
