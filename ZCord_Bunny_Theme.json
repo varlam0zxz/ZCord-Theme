@@ -23,6 +23,7 @@
         "BACKGROUND_TERTIARY": ["#000000"],
         "BG_BASE_PRIMARY": ["#000000"],
         "BG_BASE_SECONDARY": ["#000000"],
+        "BACKGROUND_MOBILE_SECONDARY": ["#000000"],
         "BACKGROUND_MENTIONED": ["rgba(128, 128, 128, 0.3)"],
         "BACKGROUND_MODIFIER_SELECTED": ["#02A8BA"],
         "TEXT_PRIMARY": ["#ffffff"],
