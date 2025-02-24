@@ -523,14 +523,14 @@
         "version": 0,
         "customOverlays": true,
         "icons": {
-            "ic_mic_neutral": "#102b47",
-            "ic_mic_muted_neutral": "#102b47",
-            "ic_soundboard":"#102b47",
-            "ic_soundboard_muted": "#102b47",
-            "ic_video": "#102b47",
-            "ic_video_disabled": "#102b47"
+            "ic_mic_neutral": "",
+            "ic_mic_muted_neutral": "",
+            "ic_soundboard":"",
+            "ic_soundboard_muted": "",
+            "ic_video": "",
+            "ic_video_disabled": ""
         },
-        "iconpack":"rosiecord-plumpy"
+        "iconpack":""
     },
     "spec": 2
             }
