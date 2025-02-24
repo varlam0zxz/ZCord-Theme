@@ -1,5 +1,5 @@
 {
-    "name": "ZCord-Phone",
+    "name": "ZCord",
     "description": "A highly customizable and beautiful theme made by ZXZ.",
     "authors": [
         {
@@ -72,25 +72,37 @@
                     "background-size": "cover",
                     "background-position": "center",
                     "background-repeat": "no-repeat",
-                    "background-color": "rgba(0, 0, 0, 0.5)"  /* Dark shading */
+                    "background-color": "rgba(0, 0, 0, 0.5)"  /* Dark shading overlay */
                 }
             },
             {
                 "selector": ".sidebar-2tJdBr",
                 "style": {
-                    "background-color": "rgba(0, 0, 0, 0.7)"  /* Darken the sidebar */
+                    "background-color": "#000000"  /* Set the server list background to black */
                 }
             },
             {
                 "selector": ".channelList-1_p3a2",
                 "style": {
-                    "background-color": "rgba(0, 0, 0, 0.6)"  /* Darken the channel list */
+                    "background-color": "rgba(0, 0, 0, 0.7)"  /* Darken the channel list background */
                 }
             },
             {
                 "selector": ".dmList-1qXYNo",
                 "style": {
-                    "background-color": "rgba(0, 0, 0, 0.6)"  /* Darken the DM list */
+                    "background-color": "rgba(0, 0, 0, 0.7)"  /* Darken the DM list background */
+                }
+            },
+            {
+                "selector": ".text-2dJl8k",
+                "style": {
+                    "color": "#ffffff"  /* Ensure text is white */
+                }
+            },
+            {
+                "selector": ".channel-2QD9JL",
+                "style": {
+                    "color": "#ffffff"  /* Ensure channel text is white */
                 }
             }
         ]
