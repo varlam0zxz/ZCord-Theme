@@ -42,7 +42,7 @@
         "PRIMARY_300": "#095834",
         "PRIMARY_400": "#FF0057",
         "PRIMARY_500": "#ffffff",
-        "BRAND_500": "#02A8BA",
+        "BRAND_500": "#5865F2",  
         "GUILD_BOOSTING_PINK": "#eb6f92",
         "RED_500": "#eb6c92",
         "YELLOW_500": "#f6c177",
@@ -50,7 +50,7 @@
         "BLUE_500": "#3e8fb0"
     },
     "background": {
-        "alpha": 5,
+        "alpha": 50,
         "url": "https://i.imgur.com/vEm069P.jpeg"
     },
     "plus": {
